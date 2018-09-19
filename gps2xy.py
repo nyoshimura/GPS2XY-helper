@@ -13,7 +13,7 @@ print("lat={}, lon={}".format(lat, long))
 # ref: https://towardsdatascience.com/exploring-and-visualizing-chicago-transit-data-using-pandas-and-bokeh-part-ii-intro-to-bokeh-5dca6c5ced10
 ######################################
 def merc(lat,lon):
-    r_major = 6378137.000
+    r_major = 6378137.000 # earth radius
     x = r_major * math.radians(lon)
     scale = x/lon
     y = 180.0/math.pi * math.log(math.tan(math.pi/4.0 + lat * (math.pi/180.0)/2.0)) * scale
