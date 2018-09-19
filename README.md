@@ -45,3 +45,5 @@ You just need to search correct EPSG code for your location.
 ### Reference (Japanese)
 * [pyproj example](http://sanvarie.hatenablog.com/entry/2016/01/04/170242)
 * [pyproj explanation](https://ikatakos.com/pot/programming/python/packages/pyproj)
+
+This repository is linked to [my blog post](http://nobutobook.blogspot.com/2018/09/pythonxy.html) :-)
